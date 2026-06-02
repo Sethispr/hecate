@@ -1,0 +1,30 @@
+@use 'variables' as *
+
+body
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  margin: 0
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-family: $font-family
+  font-size: 16px
+  line-height: 1.5
+  color: $text-dark
+
+*:focus-visible
+  outline: 3px solid #2563eb // High-contrasting vibrant blue
+  outline-offset: 2px
+
+a
+  color: $link-color
+  text-decoration: none
+  border-radius: 4px
+  transition: outline 0.15s ease-in-out, outline-offset 0.15s ease-in-out, color 0.15s ease-in-out
+  &:hover
+    text-decoration: underline
+  &:focus-visible
+    outline: 3px solid #005a9c // High-contrast navy focus ring
+    outline-offset: 2px
+    text-decoration: none
+

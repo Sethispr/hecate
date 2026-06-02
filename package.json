@@ -1,0 +1,35 @@
+{
+  "name": "uptime-rs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "svelte-check && eslint .",
+    "format": "prettier --write .",
+    "knip": "knip"
+  },
+  "dependencies": {
+    "svelte": "^5.56.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@types/node": "^22.14.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-svelte": "^2.46.1",
+    "globals": "^17.6.0",
+    "knip": "^5.45.0",
+    "prettier": "^3.5.0",
+    "prettier-plugin-svelte": "^3.3.3",
+    "sass": "^1.100.0",
+    "svelte-check": "^4.1.4",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.60.1",
+    "vite": "^6.2.3"
+  }
+}

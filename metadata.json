@@ -1,0 +1,6 @@
+{
+  "name": "uptime.rs",
+  "description": "A lean, modular status-monitoring dashboard styled after deps.rs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
