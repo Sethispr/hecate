@@ -4,6 +4,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Dynamically uses the repository name prefix if set of defaults to relative paths
+    base: process.env.BASE_URL || './',
     plugins: [svelte()],
     resolve: {
       alias: {
